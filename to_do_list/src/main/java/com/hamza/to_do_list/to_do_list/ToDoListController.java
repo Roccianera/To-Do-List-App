@@ -22,7 +22,7 @@ public class ToDoListController {
     }
 
 
-    @GetMapping("/list")
+    @GetMapping("/to-do")
     public List<ToDoResponseDto> getAllToDo(){
 
         return toDoService.getAllToDo();
@@ -79,10 +79,6 @@ public class ToDoListController {
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
 
     }
-
-
-
-    @PutMapping
 
 
 
