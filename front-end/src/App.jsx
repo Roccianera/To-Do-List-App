@@ -1,14 +1,15 @@
-import Pattern from "./components/Pattern"
-import React from "react";
-import './App.css';
-import Card from "./components/Card";
-import ListCards from "./components/ListCards";
 
+
+import Dashboard from "./pages/Dashboard";
 function App() {
   
   return (
     <>
-      <ListCards></ListCards>
+    <Dashboard>
+
+
+
+    </Dashboard>
     </>
   );
 }

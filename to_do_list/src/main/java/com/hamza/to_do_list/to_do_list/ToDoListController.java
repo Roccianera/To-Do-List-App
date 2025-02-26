@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class ToDoListController {
 
 
@@ -22,7 +23,7 @@ public class ToDoListController {
     }
 
 
-    @GetMapping("/to-do")
+    @GetMapping("/todo")
     public List<ToDoResponseDto> getAllToDo(){
 
         return toDoService.getAllToDo();
@@ -30,7 +31,7 @@ public class ToDoListController {
     }
 
 
-    @GetMapping("/to-do/{todo-id}")
+    @GetMapping("/todo/{todo-id}")
     public ToDoResponseDto findToDoById(
             @PathVariable("todo-id") Integer id
     ){
@@ -38,7 +39,7 @@ public class ToDoListController {
         return toDoService.findToDoById(id);
     }
 
-    @PostMapping("/to-do")
+    @PostMapping("/todo")
     public ToDoResponseDto saveToDo(
             @RequestBody ToDoRequestDto dto
     ){
@@ -48,7 +49,7 @@ public class ToDoListController {
 
     }
 
-    @DeleteMapping("/to-do/{todo-id}")
+    @DeleteMapping("/todo/{todo-id}")
     @ResponseStatus(HttpStatus.OK)
     public  void delete(
             @PathVariable("todo-id") Integer id

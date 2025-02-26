@@ -1,0 +1,34 @@
+/* Stile di base per il body per rimuovere margini e padding di default */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6adad;
+  }
+  
+  /* Stile per l'header */
+  .todo-header {
+    background-color: #4CAF50; /* Colore di sfondo verde */
+    color: white; /* Colore del testo bianco */
+    padding: 20px 0; /* Spaziatura interna superiore e inferiore */
+    text-align: center; /* Allinea il testo al centro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+  }
+  
+  /* Stile per il titolo */
+  .todo-header h1 {
+    margin: 0; /* Rimuove il margine di default */
+    font-size: 2.5em; /* Dimensione del font */
+    font-weight: bold; /* Grassetto */
+    letter-spacing: 2px; /* Spaziatura tra le lettere */
+  }
+  
+  /* Effetto hover per il titolo (opzionale) */
+  .todo-header h1:hover {
+    color: #f1c40f; /* Cambia colore al passaggio del mouse */
+    transition: color 0.3s ease; /* Aggiunge una transizione fluida */
+  }
+
+
+
+  

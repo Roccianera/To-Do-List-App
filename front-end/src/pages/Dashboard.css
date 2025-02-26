@@ -1,0 +1,61 @@
+/*
+header{
+
+    background-color: white;
+
+    text-align: center;
+
+
+    height: 56px;
+
+    overflow: auto;
+
+}
+
+
+
+main{
+
+    margin-top: 40px;
+
+   height: 80vh;
+
+   background-color: white;
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.list {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+
+*/
